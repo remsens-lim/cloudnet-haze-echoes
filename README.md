@@ -1,4 +1,4 @@
-# cloudnet-haze-echos
+# cloudnet-haze-echoes
 
 Haze echos are classified by the product of heuristic probability functions from individual 
 radar and ceilometer observations. The probabilities are estimated similar to
