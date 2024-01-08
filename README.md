@@ -33,7 +33,6 @@ As input sources the **Cloudnet target classification** and **Cloudnet target ca
    ```
     python -m pip install git+https://git@github.com:remsens-lim/cloudnet-haze-echos.git#egg='haze_echoes'
    ```
-
 2. Install the package
    ```sh
       python setup.py install
