@@ -103,9 +103,9 @@ probability distribution. A larger value will result in a wider distribution.
 2. **`vel_params`** (tuple) - Doppler velocity threshold parameters
    - **Default Value**: `(-1, 0.2, False)` (loc, scale, and invert)
    - **Description**: thresholds for the Doppler velocity probability (downward motion for negative Doppler velocities):
-     - **loc $\mu$**: the Doppler velocity at 50% is set to `-1`m s$^{-1}$ as the default to include
+     - **loc $\mu$**: the Doppler velocity at 50% is set to `-1`$m s^{-1}$ as the default to include
      haze echos occurring indowndrafts
-     - **scale $\sigma$**: the default is set to `0.2`m/s
+     - **scale $\sigma$**: the default is set to `0.2`$m s^{-1}$
      - **invert**: default is `False` as haze echos occur most often in updrafts (positive Doppler velocities)
 
 ### Ceilometer observations
@@ -127,7 +127,7 @@ distribution.
    - **Default Value**: `(6, 0.77e-5, 4.5e-06, False)` (shape, loc, scale, and invert)
    - **Description**: This tuple defines the parameters for beta (attenuation) thresholds. It consists of the following values:
      - **shape $\beta$**:  controls the shape and results in a plateau like shaped distribution for the default `6`
-     - **loc $\mu$**: sets the center of the distribution at 100% at the default `0.77e-5` sr$^{-1}$ m$^{-1}$
+     - **loc $\mu$**: sets the center of the distribution at 100% at the default `0.77e-5` $sr^{-1} m^{-1}$
      - **scale $\sigma$**: determines the width of the distribution with the default set at  `4.5e-06` $sr^{-1} m^{-1}$
      - **invert**: is set to `False` as the default
 
