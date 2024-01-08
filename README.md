@@ -31,11 +31,11 @@ is marked by the black line.*
 As input sources the **Cloudnet target classification** and **Cloudnet target categorization** products are mandatory.
 1. The package can be installed via pip:
    ```
-    python -m pip install git+https://git@github.com:remsens-lim/cloudnet-haze-echos.git#egg='haze_echoes'
+    python -m pip install git+https://github.com/remsens-lim/cloudnet-haze-echoes
    ```
 2. Install the package
    ```sh
-      python setup.py install
+    python setup.py install
       ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -45,7 +45,7 @@ To use this project, follow these steps:
 1. Import the `CloudProcessor` class from the `main` module.
 
    ```python
-   from main import ProbabilityCalculator
+   from haze_echoes.main import ProbabilityCalculator
    ```
 2. Define the paths for your input, output, and plot data.
    ```python
